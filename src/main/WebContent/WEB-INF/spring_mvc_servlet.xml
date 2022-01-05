@@ -21,7 +21,9 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/vista/" />
 	</bean>
-
+	
+	<mvc:resources location="/recursos/" mapping="/recursos/**"></mvc:resources>
+	
 </beans>
 
 
