@@ -8,5 +8,10 @@
 </head>
 <body>
 	Hola ${param.nombreAlumno }. bienvenido a Spring
+	<p>
+	<br>
+	<h2>Atencion</h2>
+	${mensajeClaro}"
+	</p>
 </body>
 </html>
